@@ -1,0 +1,468 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo{
+width: 300px;
+height: 50px;
+
+border: 1px solid red;
+background: url('УрBooking.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+.login{
+height: 50px;
+background: url('log_out.png');
+width: 170px;
+
+
+}
+
+
+
+.block_one{
+
+  display: flex;
+}
+
+
+.dropdown-wrapper{
+  width:195px;
+border: 1px solid red;
+  z-index: 100;
+}
+
+
+
+
+
+
+
+.dropdown-wrapper .ae-select {
+    padding: 8px;
+    position: relative;
+    border: 1px solid #ccc;
+    height: 20px;
+}
+
+.dropdown-wrapper .ae-select.chosen {
+    color: #333;
+}
+
+.dropdown-wrapper .ae-select .down-icon, .ae-select .up-icon {
+    position: absolute;
+    right: 8px;
+    top: 7px;
+}
+
+.dropdown-wrapper .ae-dropdown .dropdown-menu {
+    background: #fffef3;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.dropdown-wrapper .ae-dropdown .ae-select, .dropdown-wrapper .ae-dropdown .dropdown-menu>li {
+    cursor: pointer;
+}
+
+.dropdown-wrapper .ae-dropdown .dropdown-menu>li>a:focus, .dropdown-wrapper .ae-dropdown .dropdown-menu>li>a:hover {
+    background: none;
+}
+
+.dropdown-wrapper .ae-disabled{
+    pointer-events: none;
+}
+
+.ae-hide{
+  display:none;
+}
+
+ul.dropdown-menu{
+  list-style-type: none;
+}
+
+ul.dropdown-menu{
+  margin:0px;
+  padding:5px;
+  border: 1px solid #ccc;
+}
+
+ul.dropdown-menu li{
+  padding:5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.list_one{
+display: block;
+height:900px;
+background-size: cover;
+width: 300px;
+ position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+
+  background: url('vickholius-nugroho-jt6QxZwSOCQ-unsplash.png') no-repeat;
+}
+
+
+
+.item_log{
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#block{
+display: none;
+
+}
+
+#link:hover #block {
+background-position: center;
+
+  display: flex;
+ text-align: center;
+background-repeat: no-repeat;
+height:300px;
+width: 400px;
+z-index: 100px;
+}
+
+
+#link{
+height: 50px;
+width: 200px;
+border: 1px solid red;
+ background: url('telefone.png');
+  display: flex;
+  justify-content: center;
+background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.block_op{
+height:200px;
+width: 400px;
+
+background: url(flase.png) no-repeat;
+
+}
+
+
+.register{
+height: 900px;
+position: relative;
+
+ }
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.Header{
+height: 126px;
+display: flex;
+background:#ffffff;
+
+}
+
+.body{
+  display: block;
+background:#ebedfe;
+height: 1300px;
+}
+
+.find{
+height: 209px;
+background:#ffffff;
+margin-top: 150px;
+width: 800px;
+margin-left: 100px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+
+
+}
+
+.box {
+width: 250px;
+margin: 10px auto;
+background: #fff;
+border: 1px solid #d1d1d1;
+padding: 4px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+h3 {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 5px;
+background: -moz-linear-gradient(center top, #efefef 0%,#e0e0e0 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #efefef),color-stop(1, #e0e0e0));
+border: 1px solid #d1d1d1;
+color: #c1c1c1;
+font-size: 13px;
+font-weight: normal;
+text-shadow: 1px 1px 0px #fff;
+}
+h3 span { float: right; cursor: pointer; }
+h3 span:hover { text-shadow: 0px 0px 3px #a1eeff; }
+
+
+
+
+.popup {display: none}
+.wrapper:hover .popup {display: block; position:relative;
+height:400px;
+width:1100px;
+left: 100px;
+position: absolute;
+background: url('okno.png') no-repeat;
+background-size: contain;
+
+
+
+}
+
+
+.wrapper-dropdown-5 {
+/* размер и позиция */
+position: relative;
+width: 200px;
+margin: 0 auto;
+padding: 12px 15px;
+ 
+/* стили */
+background: #fff;
+border-radius: 5px;
+box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+outline: none;
+transition: all 0.3s ease-out;
+}
+ 
+.wrapper-dropdown-5:after { /* небольшая стрелка */
+content: "";
+width: 0;
+height: 0;
+position: absolute;
+top: 50%;
+right: 15px;
+margin-top: -3px;
+border-width: 6px 6px 0 6px;
+border-style: solid;
+border-color: #4cbeff transparent;
+} 
+
+
+
+.main{
+border: 1px solid red;
+
+}
+
+
+
+.faqs-container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #9FA4A8;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.faq.active::after, .faq.active::before {
+  color: #2ecc71;
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9FA4A8;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  display: block;
+}
+
+.faq-toggle .fa-chevron-down {
+  color: #83888E;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+
+
+.icon_glava{
+display: flex;
+
+
+}
+.icon_but{
+width: 150px;
+height:50px;
+margin-top: -40px;
+margin-left:20px;
+
+}
+.one{
+background:url('op.png');
+height: 30px;
+width: 40px;
+background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 900px) {
+.find{
+border: 1px solid red;
+width: 400px;
+margin: 100;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.register{
+
+  background:'white';
+}
+
+
+
+
+
+.items_col{
+display: flex;
+width: 800px;
+height: 100px;
+  flex-wrap: wrap;
+  z-index: 10;
+list-style: none;
+border: none;
+
+
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
